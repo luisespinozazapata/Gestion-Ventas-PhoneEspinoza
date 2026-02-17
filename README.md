@@ -1,46 +1,44 @@
 # Gestion Ventas PhoneEspinoza
 
-## Introduction
-Este proyecto es un sistema de ventas diseñado para optimizar la gestión de operaciones en puntos de venta.  
+## Project Description
+This is a management system for sales in the PhoneEspinoza application.
 
-## Cómo Empezar
+## Installation Steps
 
-### 1. Clonar el Repositorio
-Abre tu terminal y ejecuta el siguiente comando para clonar el repositorio:
-```bash
-git clone https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza.git
-```  
+### Cloning the Repository
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+   ```
+   git clone https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza.git
+   ```
 
-### 2. Requisitos Previos
-Asegúrate de tener instalado lo siguiente en tu máquina:
-- [Node.js](https://nodejs.org)
-- [MongoDB](https://www.mongodb.com)
+### Java Requirements
+- Ensure you have JDK 8 or higher installed. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- To check if Java is installed, run:
+   ```
+   java -version
+   ```
 
-### 3. Instalación
-Navega a la carpeta del proyecto con:
-```bash
-cd Gestion-Ventas-PhoneEspinoza
-```
-Luego, instala las dependencias necesarias:
-```bash
-npm install
-```
+### Setting Up MySQL
+1. Download and install MySQL from [MySQL's official site](https://dev.mysql.com/downloads/mysql/).
+2. Create a new MySQL database for the project:
+   ```sql
+   CREATE DATABASE phone_espinoza;
+   ```
+3. Import the SQL scripts located in the `sql` directory to set up the required tables and data.
 
-### 4. Configuración de la Base de Datos
-Necesitas configurar la conexión a tu base de datos MongoDB. Edita el archivo `config.js` y actualiza las credenciales de conexión:
-```js
-const dbURI = 'mongodb://<tu_usuario>:<tu_contraseña>@localhost:27017/<tu_base_de_datos>';
-```
+### Eclipse Configuration
+1. Open Eclipse and select File > Import.
+2. Choose "Existing Maven Projects" and point to the cloned repository directory.
+3. Click "Finish" to import the project.
+4. Make sure to add the required libraries and any specific configurations needed for the application.
 
-### 5. Ejecución del Proyecto
-Para iniciar el servidor, ejecuta el siguiente comando:
-```bash
-npm start
-```
-Luego abre tu navegador y dirígete a `http://localhost:3000` para acceder a la aplicación.
+## Usage
+- To run the application, execute the main class from your IDE or from the terminal using Maven:
+   ```
+   mvn spring-boot:run
+   ```
 
-## Contribuciones
-Si deseas contribuir, por favor abre un Pull Request o crea un Issues para discutir cambios.
-
-## Licencia
-Este proyecto está licenciado bajo la MIT License.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

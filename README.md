@@ -123,19 +123,6 @@ cp Gestion-Ventas.war $CATALINA_HOME/webapps/
 
 ---
 
-## 📸 Galería de Pantallas
-
-<div align="center">
-
-[![Dashboard Principal](https://img.shields.io/badge/Dashboard-Inicio-blue?style=flat-square)]()
-[![Gestión de Ventas](https://img.shields.io/badge/Gestión-Ventas-green?style=flat-square)]()
-[![Inventario](https://img.shields.io/badge/Inventario-Productos-orange?style=flat-square)]()
-[![Reportes](https://img.shields.io/badge/Reportes-Analytics-red?style=flat-square)]()
-
-</div>
-
----
-
 ## 📂 Estructura del Proyecto
 
 ```
@@ -168,24 +155,10 @@ Gestion-Ventas-PhoneEspinoza/
 
 ---
 
-## 📝 Licencia
-
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
 ## 👨‍💻 Autor
 
 **Luis Espinoza Zapata**
 - GitHub: [@luisespinozazapata](https://github.com/luisespinozazapata)
-
----
-
-## 📞 Soporte y Contacto
-
-Si tienes preguntas o necesitas soporte:
-- Abre un [Issue](https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza/issues)
-- Contáctame directamente a través de GitHub
 
 ---
 

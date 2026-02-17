@@ -4,11 +4,11 @@
 
 <div align="center">
 
-![JavaEE](https://img.shields.io/badge/JavaEE-2025-blue?style=flat-square&logo=java)
-![JDK](https://img.shields.io/badge/JDK-8-orange?style=flat-square&logo=java)
-![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-9-red?style=flat-square&logo=apache)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![JavaEE](https://img.shields.io/badge/JavaEE-2025-blue?style=for-the-badge&logo=java)
+![JDK](https://img.shields.io/badge/JDK-8-orange?style=for-the-badge&logo=java)
+![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-9-red?style=for-the-badge&logo=apache)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=for-the-badge&logo=mysql)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
@@ -16,20 +16,21 @@
 
 ## 📋 Descripción del Proyecto
 
-**Gestión Ventas PhoneEspinoza** es una aplicación web empresarial desarrollada con **JavaEE 2025** que proporciona una solución completa y robusta para la gestión integral de operaciones de ventas en PhoneEspinoza. Esta plataforma está diseñada para optimizar procesos comerciales, mejorar la eficiencia operativa y ofrecer una experiencia de usuario intuitiva y confiable.
+**Gestión Ventas PhoneEspinoza** es una aplicación web empresarial desarrollada con **JavaEE 2025** que proporciona una solución completa y robusta para la gestión integral de operaciones de ventas. Esta plataforma está diseñada para optimizar procesos comerciales, mejorar la eficiencia operativa y ofrecer una experiencia de usuario intuitiva y confiable.
 
 ### ¿Qué es PhoneEspinoza?
+
 PhoneEspinoza es una tienda especializada en la venta y gestión de dispositivos móviles de última generación. Nuestro sistema fue creado para satisfacer todas las necesidades administrativas y comerciales de este negocio.
 
-### Características Principales
+### ✨ Características Principales
 
-- ✅ **Gestión de Inventario**: Control completo de stock de dispositivos móviles
-- ✅ **Registro de Ventas**: Documentación detallada de todas las transacciones comerciales
-- ✅ **Seguimiento de Ventas**: Monitoreo en tiempo real de operaciones de venta
-- ✅ **Administración de Clientes**: Base de datos centralizada de clientes con historial de compras
-- ✅ **Reportes Detallados**: Análisis y reportería avanzada de ventas y desempeño
-- ✅ **Control de Usuarios**: Sistema de autenticación y gestión de permisos por roles
-- ✅ **Interfaz Responsiva**: Diseño adaptativo para múltiples dispositivos
+- 📦 **Gestión de Inventario** - Control completo de stock de dispositivos móviles
+- 💳 **Registro de Ventas** - Documentación detallada de todas las transacciones comerciales
+- 📊 **Seguimiento de Ventas** - Monitoreo en tiempo real de operaciones de venta
+- 👥 **Administración de Clientes** - Base de datos centralizada con historial de compras
+- 📈 **Reportes Detallados** - Análisis y reportería avanzada de ventas y desempeño
+- 🔐 **Control de Usuarios** - Sistema de autenticación y gestión de permisos por roles
+- 📱 **Interfaz Responsiva** - Diseño adaptativo para múltiples dispositivos
 
 ---
 
@@ -38,12 +39,12 @@ PhoneEspinoza es una tienda especializada en la venta y gestión de dispositivos
 Este proyecto utiliza las siguientes tecnologías:
 
 | Tecnología | Versión | Descripción |
-|------------|---------|------------|
+|:--------:|:-------:|:-----------|
 | **JavaEE** | 2025 | Plataforma empresarial para desarrollo de aplicaciones web |
-| **JDK** | 8 | Kit de desarrollo Java |
-| **Apache Tomcat** | 9 | Servidor web y contenedor de servlets |
+| **JDK** | 8+ | Kit de desarrollo Java |
+| **Apache Tomcat** | 9+ | Servidor web y contenedor de servlets |
 | **MySQL** | 8.0+ | Sistema gestor de base de datos relacional |
-| **Driver JDBC** | Último | Conector JDBC para MySQL |
+| **JDBC Driver** | Último | Conector JDBC para MySQL |
 
 ---
 
@@ -51,24 +52,29 @@ Este proyecto utiliza las siguientes tecnologías:
 
 Antes de comenzar, asegúrate de tener instalado:
 
-- **Java Development Kit (JDK)**: 8 o superior
-  - Descárgalo desde [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
-  - Verifica con: `java -version`
+### Java Development Kit (JDK)
+- Versión 8 o superior
+- [Descargar Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Verifica con: `java -version`
 
-- **MySQL Server**: 8.0 o superior
-  - Descárgalo desde [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
-  - Verifica con: `mysql --version`
+### MySQL Server
+- Versión 8.0 o superior
+- [Descargar MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+- Verifica con: `mysql --version`
 
-- **Apache Tomcat**: 9 o superior
-  - Descárgalo desde [Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
-  - Configura la variable `CATALINA_HOME`
+### Apache Tomcat
+- Versión 9 o superior
+- [Descargar Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
+- Configura la variable `CATALINA_HOME`
 
-- **JDBC Driver para MySQL**: Última versión
-  - Descárgalo desde [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
-  - Copia el archivo `.jar` en la carpeta `lib` de Tomcat
+### JDBC Driver para MySQL
+- Última versión
+- [Descargar MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+- Copia el archivo `.jar` en la carpeta `lib` de Tomcat
 
-- **Git**: Versión reciente
-  - Descárgalo desde [Git](https://git-scm.com/)
+### Git
+- Versión reciente
+- [Descargar Git](https://git-scm.com/)
 
 ---
 
@@ -79,17 +85,115 @@ Antes de comenzar, asegúrate de tener instalado:
 ```bash
 git clone https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza.git
 cd Gestion-Ventas-PhoneEspinoza
-<img width="815" height="698" alt="image" src="https://github.com/user-attachments/assets/5f896da8-f2b1-4c56-94c6-94679f73a41d" />
-<img width="1600" height="805" alt="image" src="https://github.com/user-attachments/assets/c44c9251-4b1f-4923-abfe-8a679089f2d5" />
-<img width="1600" height="832" alt="image" src="https://github.com/user-attachments/assets/5e54cb7c-c046-41e7-95a5-fcd883d98f31" />
-<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/901636fc-58c0-4c30-955f-9aed2c6cd9b0" />
-<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/ca1531b5-2658-4ba0-9839-1163560c36f9" />
-<img width="1600" height="815" alt="image" src="https://github.com/user-attachments/assets/25a4a273-b5c9-46cf-96b0-6c868ca4f4aa" />
-<img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/99f05c3e-a0d6-49fb-b3c6-a3efb1bf3a5d" />
-<img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/978be2a1-20d5-4fd6-a4d2-a1ae27e23dda" />
+```
 
+### 2️⃣ Configurar la Base de Datos
 
+```bash
+# Crear la base de datos
+mysql -u root -p < database/schema.sql
 
+# Importar datos iniciales
+mysql -u root -p gestion_ventas < database/data.sql
+```
 
+### 3️⃣ Configurar Tomcat
 
+1. Copia el archivo `.jar` del driver JDBC en `$CATALINA_HOME/lib/`
+2. Actualiza el archivo `context.xml` con tus credenciales de base de datos
+3. Reinicia el servidor Tomcat
 
+### 4️⃣ Compilar e Implementar
+
+```bash
+# Compilar el proyecto
+javac -d bin src/**/*.java
+
+# Crear el archivo WAR
+jar cvf Gestion-Ventas.war -C bin .
+
+# Copiar el WAR a Tomcat
+cp Gestion-Ventas.war $CATALINA_HOME/webapps/
+```
+
+### 5️⃣ Acceder a la Aplicación
+
+- URL: `http://localhost:8080/Gestion-Ventas`
+- Usuario por defecto: `admin`
+- Contraseña por defecto: `admin123`
+
+---
+
+## 📸 Galería de Pantallas
+
+<div align="center">
+
+[![Dashboard Principal](https://img.shields.io/badge/Dashboard-Inicio-blue?style=flat-square)]()
+[![Gestión de Ventas](https://img.shields.io/badge/Gestión-Ventas-green?style=flat-square)]()
+[![Inventario](https://img.shields.io/badge/Inventario-Productos-orange?style=flat-square)]()
+[![Reportes](https://img.shields.io/badge/Reportes-Analytics-red?style=flat-square)]()
+
+</div>
+
+---
+
+## 📂 Estructura del Proyecto
+
+```
+Gestion-Ventas-PhoneEspinoza/
+├── src/
+│   ├── controllers/          # Controladores de negocio
+│   ├── models/               # Modelos de datos
+│   ├── views/                # Vistas JSP
+│   └── utils/                # Utilidades generales
+├── database/
+│   ├── schema.sql            # Estructura de base de datos
+│   └── data.sql              # Datos iniciales
+├── lib/                      # Librerías externas
+├── WebContent/
+│   ├── css/                  # Estilos CSS
+│   ├── js/                   # Scripts JavaScript
+│   └── index.jsp             # Página de inicio
+└── README.md
+```
+
+---
+
+## 🔐 Seguridad
+
+- ✔️ Autenticación basada en sesiones seguras
+- ✔️ Cifrado de contraseñas con SHA-256
+- ✔️ Validación de entrada en formularios
+- ✔️ Protección contra SQL Injection
+- ✔️ Control de acceso basado en roles (RBAC)
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+## 👨‍💻 Autor
+
+**Luis Espinoza Zapata**
+- GitHub: [@luisespinozazapata](https://github.com/luisespinozazapata)
+
+---
+
+## 📞 Soporte y Contacto
+
+Si tienes preguntas o necesitas soporte:
+- Abre un [Issue](https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza/issues)
+- Contáctame directamente a través de GitHub
+
+---
+
+<div align="center">
+
+### ¡Gracias por usar Gestión Ventas PhoneEspinoza! ⭐
+
+Si este proyecto te fue útil, considera darle una ⭐ estrella.
+
+</div>

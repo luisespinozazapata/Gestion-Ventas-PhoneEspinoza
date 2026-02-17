@@ -198,5 +198,32 @@ Si este proyecto te fue útil, considera darle una ⭐ estrella.
 
 </div>
 ## 📸 Capturas del sistema
+
 Login
 <img width="815" height="698" alt="image" src="https://github.com/user-attachments/assets/5071217b-d343-4338-af1a-fe647fca4d43" />
+
+Seleción de Rol de usuario
+<img width="1600" height="805" alt="image" src="https://github.com/user-attachments/assets/ff5e3f4d-5484-455d-92c3-de31bc6141a4" />
+
+Vista Principal (Por Modulos)
+<img width="1600" height="832" alt="image" src="https://github.com/user-attachments/assets/151343f2-f0f8-4fee-8422-d4abe5c8cb34" />
+
+Modulo Gestion de Celulares (Inventario)
+<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/299c159a-6737-4c7e-af1d-25f604d4238c" />
+
+Modulo Gestion de Categorias
+<img width="1600" height="847" alt="image" src="https://github.com/user-attachments/assets/33f9f800-bffd-4adf-9e32-f58ac3c9f32a" />
+
+Registro de nueva Venta
+<img width="1600" height="815" alt="image" src="https://github.com/user-attachments/assets/9d2456de-d770-4caa-9cfb-70896ed2b91a" />
+
+Registro de nuevo Cliente
+<img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/35581a8b-26af-4c11-8953-e776fe99e9e5" />
+
+Modulo de Gestion y Listado de clientes
+<img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/fccf3150-8fe4-44fe-a2c9-35bc953a2e50" />
+
+
+
+
+

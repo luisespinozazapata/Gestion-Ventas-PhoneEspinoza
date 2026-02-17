@@ -8,7 +8,6 @@
 ![JDK](https://img.shields.io/badge/JDK-8-orange?style=for-the-badge&logo=java)
 ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-9-red?style=for-the-badge&logo=apache)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=for-the-badge&logo=mysql)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </div>
 
@@ -119,7 +118,7 @@ cp Gestion-Ventas.war $CATALINA_HOME/webapps/
 ### 5️⃣ Acceder a la Aplicación
 
 - URL: `http://localhost:8080/Gestion-Ventas`
-- Usuario por defecto: `admin`
+- Usuario por defecto: `Luis`
 - Contraseña por defecto: `admin123`
 
 ---

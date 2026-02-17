@@ -1,44 +1,56 @@
-# Gestion Ventas PhoneEspinoza
+# 📱 Gestion Ventas PhoneEspinoza
 
-## Project Description
-This is a management system for sales in the PhoneEspinoza application.
+> Sistema de gestión integral de ventas para PhoneEspinoza - Aplicación web desarrollada con Java Spring Boot
 
-## Installation Steps
+<div align="center">
 
-### Cloning the Repository
-1. Open your terminal or command prompt.
-2. Navigate to the directory where you want to clone the repository.
-3. Run the following command:
-   ```
-   git clone https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza.git
-   ```
+![Java](https://img.shields.io/badge/Java-11+-blue?style=flat-square&logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green?style=flat-square&logo=spring)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)
+![Maven](https://img.shields.io/badge/Maven-3.6+-red?style=flat-square&logo=apache-maven)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-### Java Requirements
-- Ensure you have JDK 8 or higher installed. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-- To check if Java is installed, run:
-   ```
-   java -version
-   ```
+</div>
 
-### Setting Up MySQL
-1. Download and install MySQL from [MySQL's official site](https://dev.mysql.com/downloads/mysql/).
-2. Create a new MySQL database for the project:
-   ```sql
-   CREATE DATABASE phone_espinoza;
-   ```
-3. Import the SQL scripts located in the `sql` directory to set up the required tables and data.
+---
 
-### Eclipse Configuration
-1. Open Eclipse and select File > Import.
-2. Choose "Existing Maven Projects" and point to the cloned repository directory.
-3. Click "Finish" to import the project.
-4. Make sure to add the required libraries and any specific configurations needed for the application.
+## 📋 Descripción del Proyecto
 
-## Usage
-- To run the application, execute the main class from your IDE or from the terminal using Maven:
-   ```
-   mvn spring-boot:run
-   ```
+Gestion Ventas PhoneEspinoza es una aplicación web desarrollada con **Java y Spring Boot** que permite gestionar de manera eficiente todas las operaciones de ventas en una tienda de telefonía. El sistema incluye funcionalidades para:
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- ✅ Gestión de inventario
+- ✅ Registro y seguimiento de ventas
+- ✅ Administración de clientes
+- ✅ Reportes detallados
+- ✅ Control de usuarios
+
+---
+
+## 🚀 Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **Java Development Kit (JDK)**: 11 o superior
+  - Descárgalo desde [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
+  - Verifica con: `java -version`
+
+- **MySQL Server**: 8.0 o superior
+  - Descárgalo desde [MySQL](https://dev.mysql.com/downloads/mysql/)
+  - Verifica con: `mysql --version`
+
+- **Apache Maven**: 3.6 o superior
+  - Descárgalo desde [Maven](https://maven.apache.org/download.cgi)
+  - Verifica con: `mvn -version`
+
+- **Git**: Versión reciente
+  - Descárgalo desde [Git](https://git-scm.com/)
+
+---
+
+## 📦 Instalación
+
+### 1️⃣ Clonar el Repositorio
+
+```bash
+git clone https://github.com/luisespinozazapata/Gestion-Ventas-PhoneEspinoza.git
+cd Gestion-Ventas-PhoneEspinoza
